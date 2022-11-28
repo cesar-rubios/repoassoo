@@ -4,6 +4,7 @@ import os
 
 # Crear el objeto que representa la aplicacion web
 APP = flask.Flask(__name__)
+hola=hola
 
 redis_available = os.environ.get('REDIS_AVAILABLE', 'no').lower() == "yes"
 if redis_available:
